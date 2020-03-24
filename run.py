@@ -11,7 +11,7 @@ def main():
     logs_config()
     logging.info(f'Begin program run: {scrape_start_time}')
 
-    # create or clean up PDF download dir
+    # create or clean download dir
     if DIR_DATA.is_dir():
         # delete files from previous run
         delete_dir_contents(DIR_DATA)
