@@ -12,9 +12,7 @@ It includes logging, pipenv and pandas.
 
     `brew install pipenv`
 
-3. Navigate into the project directory:
-
-    `cd coronavirus_gs_extracter`
+3. Navigate into the project directory.
      
 4. Use pipenv to create a virtual environment and install the project 
 dependencies. Run:
