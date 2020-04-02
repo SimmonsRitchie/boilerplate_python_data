@@ -4,6 +4,7 @@ from definitions import DIR_DATA
 from logs.config.logging import logs_config
 from modules.helper.misc import delete_dir_contents
 from modules.helper.time import utc_now
+from modules.init.pandas_opts import pandas_opts
 
 
 def init_program():
@@ -23,5 +24,7 @@ def init_program():
     else:
         logging.info("Data directory doesn't exist - building")
         DIR_DATA.mkdir()
+
+    pandas_opts()
 
     return program_start_time
