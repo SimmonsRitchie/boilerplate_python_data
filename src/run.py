@@ -6,6 +6,7 @@ def main():
     init_program()
 
     # actions to perform...
+    print("hello world!")
 
 
 
