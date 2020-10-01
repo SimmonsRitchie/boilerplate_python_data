@@ -1,7 +1,7 @@
 import pytest
 from dotenv import load_dotenv
 from typing import Dict
-from src.init.pandas_opts import pandas_opts
+from src.modules.init.pandas_opts import pandas_opts
 
 
 def pytest_configure(config):
