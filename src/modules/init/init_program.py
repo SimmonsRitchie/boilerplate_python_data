@@ -2,9 +2,9 @@ import logging
 from dotenv import load_dotenv
 from src.definitions import DIR_OUTPUT
 from logs.config.logging import logs_config
-from src.helper.misc import delete_dir_contents
-from src.helper.time import utc_now
-from src.init.pandas_opts import pandas_opts
+from src.modules.helper.misc import delete_dir_contents
+from src.modules.helper.time import utc_now
+from src.modules.init.pandas_opts import pandas_opts
 
 
 def init_program():

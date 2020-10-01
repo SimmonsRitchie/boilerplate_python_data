@@ -1,4 +1,4 @@
-from src.init.init_program import init_program
+from src.modules.init.init_program import init_program
 
 def main():
 
