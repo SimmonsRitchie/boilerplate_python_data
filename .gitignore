@@ -1,11 +1,10 @@
 ### Project specific ignore files
 .idea/
-data/output/*
-!data/output/.gitkeep
 data/*
-!data/.gitkeep
-data/logs/*
+!data/output/.gitkeep
 !data/logs/.gitkeep
+!data/input/
+
 
 
 ### gitignore Python template
