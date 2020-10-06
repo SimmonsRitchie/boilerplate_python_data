@@ -25,4 +25,3 @@ def example_fixture() -> Dict[str, Dict]:
         "id": "1",
         "name": "example",
     }
-
