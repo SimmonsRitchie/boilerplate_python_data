@@ -18,3 +18,7 @@ It includes logging, pipenv and pandas.
 dependencies. Run:
 
     `pipenv install`
+
+#### Run
+
+    `pipenv run python src/run.py`
