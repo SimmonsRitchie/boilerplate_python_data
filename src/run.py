@@ -1,4 +1,6 @@
-from src.modules.init.init_program import init_program
+from helper.init_program import init_program
+from definitions import PATH_LOGS_CONFIG
+
 
 def main():
 
@@ -9,6 +11,5 @@ def main():
     print("hello world!")
 
 
-
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
