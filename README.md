@@ -1,8 +1,7 @@
-### Boilerplate python project - data analysis/scraping
+### Boilerplate Python Project: data analysis and web scraping
 
-This is a simple boilerplate python project for data analysis or scraping.
-
-It includes logging, pipenv and pandas.
+This is a boilerplate python project for data analysis or scraping. It includes pipenv and pandas and support for
+ logging.
 
 #### Install
 
