@@ -10,13 +10,14 @@ ROOT_DIR = (
 )  # This is your Project Root
 
 # DIRECTORIES
-DIR_LOGS = ROOT_DIR / "logs"  # main dir for log-related files
-DIR_LOGS_OUTPUT = DIR_LOGS / "output"
-DIR_LOGS_CONFIG = DIR_LOGS / "config"
+DIR_DATA = ROOT_DIR / "data"
 DIR_SRC = ROOT_DIR / "src"
 DIR_TESTS = ROOT_DIR / "tests"
 DIR_ASSETS = DIR_SRC / "assets"
-DIR_OUTPUT = DIR_SRC / "output"
+DIR_LOGS_OUTPUT = DIR_DATA / "logs"
+DIR_LOGS_CONFIG = DIR_SRC / "logs_setup/config"
+DIR_OUTPUT = DIR_DATA / "output"
+
 
 # PATHS
 PATH_LOGS_CONFIG = DIR_LOGS_CONFIG / "logging.yaml"
